@@ -18,16 +18,16 @@ A few libraries that the authors of this template have vetted and think you migh
 | [`bevy_asset_loader`](https://github.com/NiklasEi/bevy_asset_loader)                   | Asset loading  | Asset management tools                |
 | [`iyes_progress`](https://github.com/IyesGames/iyes_progress)                          | Asset loading  | Progress tracking                     |
 | [`bevy_kira_audio`](https://github.com/NiklasEi/bevy_kira_audio)                       | Audio          | Advanced audio                        |
-| [`sickle_ui`](https://github.com/UmbraLuminosa/sickle_ui)                              | UI             | UI widgets                            |
+| [`bevy_cobweb_ui`](https://github.com/UkoeHB/bevy_cobweb_ui)                                | UI             | UI framework providing reactivity, widgets, and localization                            |
 | [`bevy_egui`](https://github.com/mvlabat/bevy_egui)                                    | UI / Debugging | UI framework (great for debug UI)     |
 | [`tiny_bail`](https://github.com/benfrankel/tiny_bail)                                 | Error handling | Error handling macros                 |
 
-In particular:
+In particular:.
 
 - `leafwing-input-manager` and `bevy_mod_picking` are very likely to be upstreamed into Bevy in the near future.
 - `bevy-inspector-egui` and `bevy_mod_debugdump` help fill the gap until Bevy has its own editor.
 - `avian` or `bevy_rapier` helps fill the gap until Bevy has its own physics engine. `avian` is easier to use, while `bevy_rapier` is more performant.
-- `sickle_ui` is well-aligned with `bevy_ui` and helps fill the gap until Bevy has a full collection of UI widgets.
+- `bevy_cobweb_ui` is well-aligned with `bevy_ui` and helps fill the gap until Bevy has a full collection of UI widgets and functionality.
 
 None of these are necessary, but they can save you a lot of time and effort.
 
